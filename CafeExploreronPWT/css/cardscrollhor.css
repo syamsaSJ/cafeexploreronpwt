@@ -1,0 +1,61 @@
+#cardscrollhor {
+    .rating .bi {
+        color: gold;
+    }
+
+    .card {
+        cursor: pointer;
+        border-radius: 5%;
+        box-shadow: 2px 2px 3px #999;
+        border-color: beige;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        width: 200px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        text-align: center;
+        color: white;
+    }
+
+    .card:active {
+        transform: scale(0.95);
+        /* Scale down on click */
+        box-shadow: none;
+        /* Remove box shadow on click */
+    }
+
+    /* Optional: Add hover effect */
+    .card:hover {
+        transform: scale(1);
+        /* Scale up on hover */
+        box-shadow: 5px 5px 5px #ccc;
+        /* Add box shadow on hover */
+    }
+
+    /* Responsive styles */
+
+    @media (max-width: 768px) {
+        .card {
+            width: 150px;
+            /* Adjust width for smaller screens */
+            height: 250px;
+            /* Adjust height for smaller screens */
+            margin-bottom: 5%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .card {
+            width: 100%;
+            /* Full width for extra small screens */
+            height: auto;
+            /* Auto height for extra small screens */
+        }
+    }
+
+}
