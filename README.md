@@ -1,5 +1,9 @@
 Team Project - Business electronic
+
 Nama Anggota : 
-Gladista Poskomalasari Dwi Rifan (21103057) 
-Bebby Ka’afiyan Farhan (21103064) 
-Syamsa Shahira Julyinda (21103078) 
+
+1. Gladista Poskomalasari Dwi Rifan (21103057) 
+
+2. Bebby Ka’afiyan Farhan (21103064) 
+
+3. Syamsa Shahira Julyinda (21103078) 
